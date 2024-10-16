@@ -12,6 +12,7 @@ def string_info(string_param):
 # Функция is_contains принимает два аргумента: строку и список, и возвращает True, если строка находится в этом списке,
 # False - если отсутствует. Регистром строки при проверке пренебречь: UrbaN ~ URBAN.
 def is_contains(string_param2, list_param):
+    count_calls()
     for i in range(0, len(list_param)):
         if string_param2.upper() == list_param[i].upper():
             return True
@@ -24,3 +25,4 @@ print(string_info('Capybara'))
 print(string_info('Armageddon'))
 print(is_contains('Urban', ['ban', 'BaNaN', 'urBAN'])) # Urban ~ urBAN
 print(is_contains('cycle', ['recycling', 'cyclic'])) # No matches
+print(calls)
