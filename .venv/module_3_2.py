@@ -60,3 +60,6 @@ send_email('Вы видите это сообщение как лучший ст
 send_email('Пожалуйста, исправьте задание', 'urban.student@mail.ru', sender='urban.teacher@mail.uk')
 send_email('Напоминаю самому себе о вебинаре', 'Urban.teacher@mail.ru', sender='Urban.Teacher@mail.Ru')
 #The End!
+end = time.time() - start ## собственно время работы программы
+
+print(end) ## вывод времени
