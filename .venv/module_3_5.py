@@ -11,7 +11,7 @@ def get_multiplied_digits(number):
 
 
 c = False
-result = get_multiplied_digits(1012345)
+result = get_multiplied_digits(40203)
 print(result)
 
 
